@@ -1,0 +1,508 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686837628191426, "dur": 10366304, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686837628215868, "dur": 78139, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686837628294012, "dur": 508821, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686837628802846, "dur": 4087723, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686837632890578, "dur": 5665821, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686837638556408, "dur": 1318, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686837638558322, "dur": 43, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686837630852295, "dur": 1206851, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686837630857698, "dur": 594861, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686837631977952, "dur": 13435, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686837631991398, "dur": 67722, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686837631994479, "dur": 63751, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686837632082650, "dur": 4882, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686837632080656, "dur": 6991, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686837638558567, "dur": 234, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686837632986432, "dur":24996, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837633011506, "dur":82, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686837633011630, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686837633011658, "dur":566, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686837633012288, "dur":1357, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837633013647, "dur":8, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638546163, "dur":189, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638546354, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638546361, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638546364, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638546368, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638546371, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638546375, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638546378, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638546382, "dur":2, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638546398, "dur":8, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638546412, "dur":2261, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686837633011999, "dur":1822, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633013823, "dur":3778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633017611, "dur":38397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633056028, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633065332, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633065996, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686837633066038, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633066296, "dur":15134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686837633081447, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1686837633081470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633081486, "dur":63430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1686837633144948, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":1, "ts":1686837633144978, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633145011, "dur":434870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":1, "ts":1686837633579916, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633580392, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633580478, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633580979, "dur":19875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633600872, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633600897, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633601314, "dur":187481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633788814, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633788839, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633789755, "dur":31416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633821187, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633821207, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633822170, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":1, "ts":1686837633822189, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633822211, "dur":242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":1, "ts":1686837633822466, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633822578, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633822593, "dur":164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633822770, "dur":28185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633850972, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633850992, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633851923, "dur":96118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633948060, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633948084, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633948686, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633948799, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837633948819, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837633949125, "dur":67440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634016583, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634016604, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634017128, "dur":25292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634042440, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634042465, "dur":474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634042956, "dur":121766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634164745, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634164773, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634166704, "dur":93134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634259858, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634259882, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634263431, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634263544, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634263563, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634263853, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634264131, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634264145, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634264362, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634264575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634264589, "dur":224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634264826, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634264917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634264929, "dur":278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634265220, "dur":484143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634749385, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634749525, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634750799, "dur":47820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634798636, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634798660, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634799373, "dur":39905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634839297, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634839322, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634842301, "dur":6413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634848732, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634848815, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634849171, "dur":14006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634863196, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634863223, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634863898, "dur":55360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634919344, "dur":39, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837634919404, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837634919807, "dur":84066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635003893, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837635003918, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635004306, "dur":101175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635105498, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837635105521, "dur":394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635105931, "dur":110845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635216795, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837635216819, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635217776, "dur":164271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635382067, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837635382091, "dur":5530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635387642, "dur":40926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635428591, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837635428620, "dur":451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635429089, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1686837635429113, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837635429129, "dur":161865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1686837635591040, "dur":73062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635664122, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837635664147, "dur":380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635664548, "dur":19125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635683693, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837635683804, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635685204, "dur":146961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635832180, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837635832204, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837635833109, "dur":216245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837636049374, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837636049397, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837636051308, "dur":31711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837636083039, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837636083063, "dur":407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837636083487, "dur":60554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837636144060, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837636144084, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837636144969, "dur":790372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837636935358, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837636935379, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837636936220, "dur":150766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837637087005, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837637087029, "dur":6898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837637093946, "dur":317288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837637411252, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837637411278, "dur":398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837637411695, "dur":138877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837637550590, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837637550714, "dur":6197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686837637556935, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":1, "ts":1686837637556982, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837637557008, "dur":504356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":1, "ts":1686837638061394, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686837638061421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837638061439, "dur":247511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686837638308971, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686837638308996, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837638309015, "dur":304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686837638309335, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686837638309357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686837638309372, "dur":236679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1686837638546074, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1686837638546084, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633011975, "dur":1722, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633013709, "dur":3870, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633017587, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686837633017611, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633039710, "dur":292, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1686837633040019, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686837633040082, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633066164, "dur":13777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686837633079969, "dur":940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686837633080919, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633080953, "dur":227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686837633081199, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686837633081249, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633081266, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686837633081838, "dur":20102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686837633101959, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633101985, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686837633102662, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686837633103149, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633103172, "dur":352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686837633103542, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686837633103566, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633103582, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686837633103893, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1686837633104248, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633104429, "dur":411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1686837633104856, "dur":75110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686837633179989, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633180022, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1686837633180588, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein.x86_64" }}
+,{ "pid":12345, "tid":2, "ts":1686837633180643, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633180660, "dur":44561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein.x86_64" }}
+,{ "pid":12345, "tid":2, "ts":1686837633225248, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/UnityPlayer.so" }}
+,{ "pid":12345, "tid":2, "ts":1686837633225299, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837633225316, "dur":4338322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/UnityPlayer.so" }}
+,{ "pid":12345, "tid":2, "ts":1686837637563662, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686837637563686, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837637563703, "dur":6566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1686837637570288, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686837637570312, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837637570331, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686837637570610, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1686837637570629, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837637570642, "dur":750100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1686837638320762, "dur":28311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1686837638349090, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837638349112, "dur":377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1686837638349505, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686837638349528, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837638349542, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686837638351684, "dur":10276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686837638361979, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837638362000, "dur":432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686837638362447, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1686837638362469, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686837638362481, "dur":14445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1686837638376947, "dur":169328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633012391, "dur":1558, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633013951, "dur":3675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633017640, "dur":11539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633029197, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633065271, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633066067, "dur":14995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686837633081082, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633081110, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686837633081933, "dur":84880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633166836, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633166890, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633168359, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1686837633168401, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633168576, "dur":185136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1686837633353744, "dur":162598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633516363, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633516386, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633518079, "dur":35263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633553361, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633553385, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633553799, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686837633553838, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633554000, "dur":224652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686837633778692, "dur":76914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633855624, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633855647, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633855947, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633856245, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837633856263, "dur":250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837633856528, "dur":147821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634004366, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634004388, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634005386, "dur":37111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634042521, "dur":47, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634042593, "dur":477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634043095, "dur":37832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634080950, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634080978, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634081511, "dur":38146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634119675, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634119700, "dur":424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634120141, "dur":66765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634186925, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634186949, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634187376, "dur":100063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634287457, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634287480, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634287869, "dur":387584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634675473, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634675496, "dur":402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634675917, "dur":24085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634700021, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634700046, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634700472, "dur":68192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634768684, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634768709, "dur":504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634769232, "dur":54042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634823294, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634823320, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634824027, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1686837634824052, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634824067, "dur":34027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1686837634858116, "dur":736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634858872, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634858898, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634859361, "dur":21913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634881294, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837634881319, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837634882190, "dur":1105373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837635987583, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837635987606, "dur":22031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837636009658, "dur":12719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837636022398, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837636022421, "dur":517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837636022955, "dur":51358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837636074333, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837636074357, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837636076112, "dur":795743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837636871874, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837636871897, "dur":184049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837637055966, "dur":447331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837637503316, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837637503339, "dur":18387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837637521746, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686837637521774, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837637521795, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686837637524069, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686837637524112, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837637524127, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686837637524528, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686837637524548, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837637524562, "dur":6499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686837637531085, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686837637531111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837637531129, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686837637531368, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686837637531389, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837637531402, "dur":530488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686837638061911, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686837638062003, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837638062024, "dur":259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686837638062300, "dur":279600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837638341921, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837638341947, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837638342511, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686837638342667, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837638342687, "dur":360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686837638343062, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686837638343083, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837638343096, "dur":12672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1686837638355791, "dur":67639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837638423447, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686837638423473, "dur":688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686837638424178, "dur":122094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633012245, "dur":1632, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633013880, "dur":3779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633017663, "dur":7573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633025253, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633065316, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633065876, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686837633065921, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633066234, "dur":27124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686837633093392, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1686837633093471, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633093503, "dur":8343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1686837633101882, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686837633101912, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633101962, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686837633103134, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686837633103627, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633103648, "dur":292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686837633103959, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1686837633103983, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633103999, "dur":479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1686837633104495, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686837633104521, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633104539, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686837633105807, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":4, "ts":1686837633105835, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633105960, "dur":332312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":4, "ts":1686837633438309, "dur":190079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633628405, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633628428, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633629471, "dur":184000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633813491, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633813514, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633816054, "dur":16294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633832365, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633832388, "dur":358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633832764, "dur":10578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633843362, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633843386, "dur":432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633843837, "dur":24564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633868420, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633868444, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633868955, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633869718, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837633869738, "dur":456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837633870210, "dur":264877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634135107, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837634135133, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634136452, "dur":59583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634196051, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837634196073, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634196864, "dur":539990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634736874, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837634736897, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634737893, "dur":54282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634792196, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837634792220, "dur":385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634792624, "dur":20412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634813055, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837634813079, "dur":472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634813570, "dur":35282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634848872, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837634848898, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634849598, "dur":61603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634911218, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837634911239, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634913211, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634913330, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837634913345, "dur":344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634913703, "dur":57092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634970818, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837634970846, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837634971921, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":4, "ts":1686837634971962, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837634971984, "dur":173526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":4, "ts":1686837635145540, "dur":56509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635202068, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837635202093, "dur":485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635202597, "dur":213544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635416158, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837635416181, "dur":526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635416724, "dur":234682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635651428, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837635651457, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635653882, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1686837635653915, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837635653935, "dur":242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1686837635654183, "dur":19676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635673879, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837635673903, "dur":418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635674338, "dur":38021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635712377, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837635712400, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635713035, "dur":118547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635831601, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837635831626, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635832800, "dur":137848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635970666, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837635970688, "dur":578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837635971282, "dur":56014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636027315, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837636027338, "dur":324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636027678, "dur":2831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636030646, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837636030668, "dur":12366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636043053, "dur":258468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636301541, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837636301565, "dur":391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636301976, "dur":63378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636365375, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837636365400, "dur":448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636365867, "dur":198160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636564047, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837636564070, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636564653, "dur":389645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636954326, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837636954355, "dur":6107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837636960483, "dur":215394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837637175897, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837637175922, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837637176499, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1686837637176523, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837637176537, "dur":293953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1686837637470513, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1686837637470657, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837637470682, "dur":4138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1686837637474842, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1686837637474866, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837637474886, "dur":61993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1686837637536899, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1686837637537001, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837637537018, "dur":217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1686837637537248, "dur":37315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837637574577, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837637574597, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837637574878, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686837637574898, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837637574910, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686837637575869, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686837637575886, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837637575898, "dur":682327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686837638258254, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1686837638258288, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837638258313, "dur":15355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1686837638273686, "dur":68506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837638342212, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837638342239, "dur":346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686837638342605, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles 3dClonEinstein/3dClonEinstein_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686837638342630, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686837638342644, "dur":69173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"3dClonEinstein/3dClonEinstein_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686837638411839, "dur":134346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686837638549811, "dur":1084, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686837638558877, "dur": 1169, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686837638558270, "dur": 1798, "ph": "X", "name": "Write chrome-trace events", "args": {} },
